@@ -32,7 +32,7 @@ const __dirname = path.dirname(__filename);
 if (process.env.NODE_ENV === "production") {
   const __dirname = path.resolve();
   app.use(express.static(path.join(__dirname, "Frontend", "dist")));  // <-- uppercase F
-  app.get("*", (req, res) => {
+  app.get("/*", (req, res) => {
     res.sendFile(path.join(__dirname, "Frontend", "dist", "index.html")); // <-- uppercase F
   });
 }
