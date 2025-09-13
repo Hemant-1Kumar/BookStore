@@ -31,13 +31,12 @@ const __dirname = path.dirname(__filename);
 // Serve React frontend
 if (process.env.NODE_ENV === "production") {
   const __dirname = path.resolve();
-  app.use(express.static(path.join(__dirname, "frontend", "dist")));
-
-  // 👇 use RegExp here instead of "*"
-  app.get(/.*/, (req, res) => {
-    res.sendFile(path.join(__dirname, "frontend", "dist", "index.html"));
+  app.use(express.static(path.join(__dirname, "Frontend", "dist")));  // <-- uppercase F
+  app.get("*", (req, res) => {
+    res.sendFile(path.join(__dirname, "Frontend", "dist", "index.html")); // <-- uppercase F
   });
 }
+
 
 
 app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
