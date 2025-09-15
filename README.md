@@ -1,6 +1,15 @@
 # 📚 MERN Book Store
 
+[![Live Demo](https://img.shields.io/badge/Live-Demo-blue)](https://bookstore-10-ttvt.onrender.com/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)  
+
 A **full-stack Book Store web application** built with the **MERN stack** (MongoDB, Express.js, React.js, Node.js) featuring user authentication, book listings, and a responsive UI. Users can browse free and premium books, search for titles, and manage their personal collections.
+
+---
+
+## 🌐 Live Demo
+
+Play the app online: [Book Store Live](https://bookstore-10-ttvt.onrender.com/)
 
 ---
 
