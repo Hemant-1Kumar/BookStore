@@ -37,7 +37,7 @@ Play the app online: [Book Store Live](https://bookstore-10-ttvt.onrender.com/)
 - **Authentication:** JWT (JSON Web Tokens)  
 - **Other Tools:** Axios for API calls, React Router for client-side routing
 
----
+--
 
 ## Installation
 
